@@ -6,6 +6,10 @@
 
 IGA HIFADHI aims to bridge the gap between students' academic choices and the dynamic demands of the labor market. By leveraging data-driven insights, the system ensures that students are guided towards subjects and career paths that align with their strengths and market opportunities.
 
+## Link to GITHUB REPO
+
+https://github.com/rumunyana/IGA_mission-capstone
+
 ## Features
 
 - **User Authentication:** Secure login and registration for students and teachers.
