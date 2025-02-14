@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile - IGA HIFADHI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 80px;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .btn-update {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-update:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="student-dashboard.html">IGA HIFADHI</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="student-dashboard.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="student-recommendations.html">Recommendations</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <div class="text-center">
+                        <h4>ROLINE UMUNYANA</h4>
+                        <p>Student</p>
+                    </div>
+                    <hr>
+                    <h5>Profile Information</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" value="John Doe">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Grade</label>
+                            <input type="text" class="form-control" value="O-Level">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Preferred Career</label>
+                            <input type="text" class="form-control" value="Software Engineer">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Interests</label>
+                            <input type="text" class="form-control" value="Math, Science, ICT">
+                        </div>
+                        <button type="submit" class="btn btn-update w-100">Update Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+</body>
+</html>

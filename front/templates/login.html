@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IGA HIFADHI - Choose Login Type</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #aebccb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-selection-container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .login-selection-container h2 {
+      margin-bottom: 30px;
+    }
+    .btn {
+      width: 200px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-selection-container">
+    <h2>Select Login Type</h2>
+    <a href="{{ url_for('student_login') }}" class="btn btn-primary btn-lg me-2">Student Portal</a>
+    <a href="{{ url_for('teacher_login') }}" class="btn btn-success">Teacher Login</a>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+          crossorigin="anonymous"></script>
+</body>
+</html>
